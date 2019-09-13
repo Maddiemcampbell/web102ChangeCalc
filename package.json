@@ -16,5 +16,8 @@
         "mocha": "^5.2.0",
         "nightmare": "^3.0.1",
         "node-static": "^0.7.9"
+    },
+    "dependencies": {
+        "materialize-css": "^1.0.0-rc.2"
     }
 }

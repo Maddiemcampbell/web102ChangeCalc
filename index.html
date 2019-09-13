@@ -3,17 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Change Calculator</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
   </head>
   <body>
+    
     <h1>Change Calculator</h1>
-    <input id="amount-due" placeholder="Amount due for sale"></input>
-    <input id="amount-received" placeholder="Amount received"></input>
-    <button id="calculate-change" onClick="handleClickEvent()">Calculate</button>
-    <p id="dollars-output"></p>
-    <p id="quarters-output"></p>
-    <p id="dimes-output"></p>
-    <p id="nickels-output"></p>
-    <p id="pennies-output"></p>
+    
+    <div id="container1">
+      <input id="amount-due" placeholder="Amount due for sale"></input>
+      <input id="amount-received" placeholder="Amount received"></input>
+      <button id="calculate-change" onClick="handleClickEvent()">Calculate</button>
+    </div>
+    
+    <div id="container2">
+      <h3>Dollars</h3>
+        <p id="dollars-output">0.00</p>
+      <h3>Quarters</h3>
+        <p id="quarters-output">0</p>
+      <h3>Dimes</h3>
+        <p id="dimes-output">0</p>
+      <h3>Nickels</h3>
+        <p id="nickels-output">0</p>
+      <h3>Pennies</h3>
+        <p id="pennies-output">0</p>
+    </div>
+
     <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
